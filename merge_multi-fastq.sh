@@ -1,11 +1,14 @@
 #! /usr/bin/bash
 
+
 echo "Ranjan Jyoti Sarma"
 echo "Department of Biotechnology, Mizoram University"
 echo -e ("\n")
-echo "Avialable samples are:"
+echo "Available samples are:"
 ls -d
 echo "Started at:" $(date)>./CONV.SH.LOG.txt
+
+
 
 for dir in ./*/
 do
@@ -21,6 +24,7 @@ do
 	echo "Finished run in sample: "${dir##*/} "at " $(date)>>./CONV.SH.LOG.txt
 	echo "Finished run in sample: "${dir##*/} "at " $(date)
 done
+
 echo "Merging of all files completed at: " $(date)>>./CONV.SH.LOG.txt
 
 exit
