@@ -7,63 +7,23 @@
 
 The script assumes the Original directory as: (Tree View):
 
-Sample1
-|
-|
-`-sample1_true_seq_L1_R1.fastq.gz
-|
-`_sample1_true_seq_L1_R2.fastq.gz
-|
-|
-`-sample1_true_seq_L2_R1.fastq.gz
-|
-`_sample1_true_seq_L2_R2.fastq.gz
-|
-Sample2
-|
-|
-`-sample2_true_seq_L1_R1.fastq.gz
-|
-`_sample2_true_seq_L1_R2.fastq.gz
-|
-|
-`-sample2_true_seq_L2_R1.fastq.gz
-|
-`_sample2_true_seq_L2_R2.fastq.gz
+DIR:Sample1-> sample1_true_seq_L1_R1.fastq.gz , sample1_true_seq_L1_R2.fastq.gz, sample1_true_seq_L2_R1.fastq.gz, sample1_true_seq_L2_R2.fastq.gz
+
+DIR:Sample2-> sample2_true_seq_L1_R1.fastq.gz, sample2_true_seq_L1_R2.fastq.gz, sample2_true_seq_L2_R1.fastq.gz, sample2_true_seq_L2_R2.fastq.gz
 
 OR
-sample1
-|
-|
-`-barcode1_0.fastq.gz
-|
-`_barcode1_1.fastq.gz
-|
-`-barcode1_2.fastq.gz
-|
-`_barcode1_3.fastq.gz
+
+DIR:sample1-> barcode1_0.fastq.gz, barcode1_1.fastq.gz, barcode1_2.fastq.gz, barcode1_3.fastq.gz
 
 OUTPUT:
 
-Sample1
-|
-|
-`-sample1_R1.fastq.gz
-|
-`_sample1_R2.fastq.gz
-|
-|
-Sample2
-|
-|
-`-sample2_R1.fastq.gz
-|
-`_sample2_R2.fastq.gz
+DIR:Sample1-> sample1_R1.fastq.gz , sample1_R2.fastq.gz
 
+DIR:Sample2-> sample2_R1.fastq.gz,  sample2_R2.fastq.gz
 
 OR
 
-sample1
-|
-|
-`-sample1_barcode_fastq.gz
+DIR:sample1-> barcod_sample1.fastq.gz
+
+
+Thanks!
