@@ -1,4 +1,5 @@
 # NGS_Data_Preprocessing
+#
 1. The script is design ed and tested in ubuntu version 20.04 (LTS).
 2. The script will merge multiple ple read1 and read2 files to a single file.
 3. It also preserve the original filenames in a different text file.(To save the plateform IDs, libray prep. protocol.)
